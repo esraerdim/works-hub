@@ -358,8 +358,7 @@ export default{
 .navbar-page{
     background-color: #fff;
     border-bottom: 1px solid #E8E8E8;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 6;
     width: 100%;
@@ -800,6 +799,10 @@ a:hover {
 }
 .search-mini{
     position: relative;
+}
+#arrow-down{
+    width: 10px;
+    height: 10px;
 }
 input[type="checkbox"], input[type="radio"] {
     vertical-align: baseline;

@@ -89,6 +89,9 @@
     height: 1.5rem;
     width: 1.5rem;
 }
+.icon-pen{
+    fill: #a9b7be;
+}
 .visually-hidden{
     position: absolute;
     clip: rect(0 0 0 0);

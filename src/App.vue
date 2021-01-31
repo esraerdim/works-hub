@@ -25,7 +25,7 @@ export default {
 body {
   font-family: "Montserrat",sans-serif !important;
   background-color: #EAECF2  !important;
-  color: #4a4a4a;
+  color: #4a4a4a !important;
   font-size: 1rem;
   line-height: 30px;
 }
