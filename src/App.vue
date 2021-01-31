@@ -32,4 +32,20 @@ body {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+hr{
+  background-color: #f5f5f5;
+  border: none;
+  display: block;
+  height: 2px;
+  margin: 1.5rem 0;
+}
+a {
+    color: #434E55 !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+  text-decoration: none  !important;
+  color: #434E55 !important;
+}
 </style>
