@@ -53,6 +53,21 @@ export default {
         sharethoughts,
         contributeOpensource
     },
+    methods:{
+        toggleBodyClass(removeClass, className) {
+            const el =document.getElementsByTagName('li')[0];
+            console.log(el)
+            const svg=document.getElementsByTagName('svg')[0];
+            console.log(svg)
+            el.classList.remove(className);
+            svg.classList.remove('active-li')
+            svg.classList.remove('active-icon')
+            svg.classList.add('svg-icon');
+        },
+    },
+    mounted() {
+        this.toggleBodyClass('removeClass', 'active-li');
+    },
 
 };
 </script>

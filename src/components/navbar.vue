@@ -10,9 +10,9 @@
                     </div>
                 </a>
                 <ul class="navbar-ul">
-                    <li class="navbar-li">
+                    <li class="navbar-li active-li">
                         <a href="/" class="navbarli-item">
-                        <svg class=" icon svg-icon" viewBox="0 0 20 20">
+                        <svg class=" icon active-icon" viewBox="0 0 20 20">
 							<path fill="none" d="M15.971,7.708l-4.763-4.712c-0.644-0.644-1.769-0.642-2.41-0.002L3.99,7.755C3.98,7.764,3.972,7.773,3.962,7.783C3.511,8.179,3.253,8.74,3.253,9.338v6.07c0,1.146,0.932,2.078,2.078,2.078h9.338c1.146,0,2.078-0.932,2.078-2.078v-6.07c0-0.529-0.205-1.037-0.57-1.421C16.129,7.83,16.058,7.758,15.971,7.708z M15.68,15.408c0,0.559-0.453,1.012-1.011,1.012h-4.318c0.04-0.076,0.096-0.143,0.096-0.232v-3.311c0-0.295-0.239-0.533-0.533-0.533c-0.295,0-0.534,0.238-0.534,0.533v3.311c0,0.09,0.057,0.156,0.096,0.232H5.331c-0.557,0-1.01-0.453-1.01-1.012v-6.07c0-0.305,0.141-0.591,0.386-0.787c0.039-0.03,0.073-0.066,0.1-0.104L9.55,3.75c0.242-0.239,0.665-0.24,0.906,0.002l4.786,4.735c0.024,0.033,0.053,0.063,0.084,0.09c0.228,0.196,0.354,0.466,0.354,0.76V15.408z"></path>
 						</svg>
                         </a>
@@ -87,12 +87,12 @@
                     <div class="right-navuser">
                         <a class="write-create">Write Article</a>
                         <div class="user-area" @mouseover="userOver" @mouseleave="userLeave">
-                            <a href="" class="userprofile" >
+                           <router-link to="/profile"> <a href="" class="userprofile" >
                                 <img class="avataruser" src="https://avatars.githubusercontent.com/u/42889707?u=74e965d48af1d2264a1cd84d3784aa140bc18383&amp;v=4">
                                 <svg id="arrow-down" viewBox="0 0 10 5" class="icon svg-down">
                                     <path d="M10 9.53674e-07L4.37114e-07 7.94466e-08L5 5L10 9.53674e-07Z"></path>
                                 </svg>
-                            </a>
+                            </a></router-link>
                             <ul v-if="userul" class="childul userul">
                                 <li class="childli">
                                     <a class="childlink">
