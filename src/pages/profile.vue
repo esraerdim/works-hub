@@ -19,8 +19,8 @@
                         <contribute-opensource></contribute-opensource>
                     </div>
                 </div>
-
             </div>
+            <DashboardFooter></DashboardFooter>
 
         </div>
 
@@ -38,6 +38,7 @@ import experience from '@/components/experience'
 import opensource from '@/components/opensource'
 import sharethoughts from '@/components/sharethoughts'
 import contributeOpensource from '@/components/contributeOpensource'
+import DashboardFooter from '../components/footer.vue'
 
 export default {
     components: {
@@ -51,7 +52,8 @@ export default {
         experience,
         opensource,
         sharethoughts,
-        contributeOpensource
+        contributeOpensource,
+        DashboardFooter
     },
     methods:{
         toggleBodyClass(removeClass, className) {

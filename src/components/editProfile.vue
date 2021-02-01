@@ -1,5 +1,5 @@
 <template>
-    <div class="edit-profile">
+    <div class="edit-profiles">
         <div class="edit-header">
             <img class="edit-avatar" src="https://avatars.githubusercontent.com/u/42889707?u=74e965d48af1d2264a1cd84d3784aa140bc18383&amp;v=4">
             <div class="edit-user">
@@ -72,7 +72,7 @@
 
 </template>
 <style>
-.edit-profile{
+.edit-profiles{
     background: #fff;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgb(0 0 0 / 8%);
@@ -188,8 +188,13 @@
     width: 13px;
     height: 16px;
 }
+.edit-user a:hover{
+    color: #434E55 !important;
+    text-decoration: none !important;
+    background-color:transparent;
+}
 @media screen and (min-width: 769px){
-    .edit-profile{
+    .edit-profiles{
         grid-column-gap: 55px;
         grid-template-rows: 73px minmax(-webkit-min-content, -webkit-max-content) 1fr;
         grid-template-rows: 73px minmax(min-content, max-content) 1fr;
@@ -221,7 +226,7 @@
     }
 }
 @media screen and (max-width: 768px){
-    .edit-profile{
+    .edit-profiles{
         grid-row-gap: 16px;
         padding-bottom: 30px;  
     }

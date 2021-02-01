@@ -25,6 +25,7 @@
                     </div>
                 </div>
             </div>
+            <DashboardFooter></DashboardFooter>
         </div>
     </div>
 </template>
@@ -40,6 +41,7 @@ import AllJobs from '../components/allLivejobs.vue'
 import FindOut from '../components/findout.vue'
 import LiveIssues from '../components/liveIssues.vue'
 import TopRankingUser from '../components/topRankingUser.vue'
+import DashboardFooter from '../components/footer.vue'
 export default {
     components: {
         Navbar,
@@ -52,7 +54,8 @@ export default {
         AllJobs,
         FindOut,
         LiveIssues,
-        TopRankingUser
+        TopRankingUser,
+        DashboardFooter
     },
 }    
 </script>
