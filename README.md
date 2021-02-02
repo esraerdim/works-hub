@@ -1,5 +1,4 @@
 # works-hub
-
 ## Project setup
 ```
 npm install

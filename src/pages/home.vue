@@ -144,4 +144,10 @@ export default {
     }
 
 }
+@media screen and (max-width: 769px){
+    .home-content{
+        margin-top:49px;
+    }
+
+}
 </style>
